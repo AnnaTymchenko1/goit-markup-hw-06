@@ -760,7 +760,10 @@ textarea {
 }
 .modal-check:checked + .accept-text span {
   background-color: var(--accent-color);
-  border: none;
+  border: 1px solid var(--accent-color);
+}
+.modal-check:focus + .icon-check {
+  border-color: var(--accent-color);
 }
 .modal-check:checked + .accept-text .icon-check {
   fill: var(--white);
